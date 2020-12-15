@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns = "http://www.springframework.org/schema/beans"
+       xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+">
+    <bean id="Vehicle" class="DIxml.Bike" >
+        <constructor-arg name="brand" value="Vishwa"></constructor-arg>
+        <constructor-arg name="owner" value="my"></constructor-arg>
+    </bean>
+    <bean id="HI" class="DIxml.Car" >
+        <property name="brand" value="VISHWA"></property>
+    </bean>
+<!--    <context:component-scan base-package="java/DIxml"></context:component-scan>-->
+<!--    <context:annotation-config/>-->
+<!--    <bean id="Beans" class="DIxml.Beans">-->
+<!--        <property name="y" value="5"></property>-->
+<!--    </bean>-->
+</beans>
