@@ -7,7 +7,10 @@ public class MainApp {
     public static void main(String[] args) {
         ApplicationContext c= new AnnotationConfigApplicationContext(Source.class);
         Employ y=c.getBean(Employ.class);
-        y.display();
-
+//        Employ x=c.getBean(Employ.class);
+//        y.setI(5);
+//        x.setI(10);
+//        System.out.println(x.getI());
+        System.out.println(y.getI());
     }
 }

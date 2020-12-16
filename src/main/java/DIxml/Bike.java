@@ -11,8 +11,8 @@ public  class Bike implements Vehicle{
     }
 
     public void drive(){
-        System.out.println(brand);
-        System.out.println(owner);
+        System.out.println("brand = "+brand);
+        System.out.println("owner = "+owner);
         System.out.println("bike is running");
     }
 }
